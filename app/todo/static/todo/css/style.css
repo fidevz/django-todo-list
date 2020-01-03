@@ -1,0 +1,59 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+body {
+    background: #0fabbc;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.main-container{
+  width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px 0;
+  -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.2);
+          box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+
+.add-task{
+  background-color: #fa163f;
+  border-color: #fa163f;
+  cursor: pointer;
+}
+.add-task:hover{
+  background-color: white;
+  border-color: #fa163f;
+  color: #fa163f;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 1rem !important;
+    margin-left: -.5rem !important;
+}
+
+.form-control {
+    border: 0px !important;
+    border-bottom: 1px solid #fa163f !important;
+    border-radius: 0 !important;
+}
+
+.input-group-addon{
+  display:none !important;
+}
+
+.form-check-input:checked + label.form-check-label{
+  text-decoration: line-through;
+}
+.delete-task, .pointer{
+  cursor: pointer;
+}
+.border-left-primary{
+  border-left: 3px solid #fa163f !important;
+}
